@@ -9,7 +9,7 @@ namespace menuto
             do
             {
             Console.WriteLine("Rectangle");
-                Console.WriteLine("Triangle");
+                Console.WriteLine("Circle");
             Console.WriteLine("Exit");
             rectangle Rectangle = new rectangle();
                 Circle circle = new Circle();
