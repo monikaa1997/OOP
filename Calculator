@@ -13,14 +13,13 @@ class Program
     {
         static void Main(string[] args)
         {
-            List<string> bas = new List<string>();
-
 
             Calculate calculate = new Calculate();
             
             int d;
             do
             {
+                List<string> bas = new List<string>();
                 Console.WriteLine("(1 +) (2 -) (3 *) (4 /)");
                 Console.WriteLine("a");
                 Console.WriteLine("b");
