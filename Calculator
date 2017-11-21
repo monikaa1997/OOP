@@ -1,0 +1,65 @@
+namespace calculator
+{
+    class Calculate
+    {
+        private double a;
+        private double b;
+        public double A { get { return a; } set { a = value; } }
+        public double B { get { return b; } set { b = value; } }
+    }
+}
+
+class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> bas = new List<string>();
+
+
+            Calculate calculate = new Calculate();
+            
+            int d;
+            do
+            {
+                Console.WriteLine("(1 +) (2 -) (3 *) (4 /)");
+                Console.WriteLine("a");
+                Console.WriteLine("b");
+                d = int.Parse(Console.ReadLine());
+                switch (d)
+                {
+                    case 1:
+                        {
+                            calculate.A = int.Parse(Console.ReadLine());
+                            calculate.B = int.Parse(Console.ReadLine());
+                            Console.WriteLine(calculate.A + calculate.B);
+                            break;
+                        }
+                    case 2:
+                        {
+                            calculate.A = int.Parse(Console.ReadLine());
+                            calculate.B = int.Parse(Console.ReadLine());
+                            Console.WriteLine(calculate.A - calculate.B);
+                            break;
+                        }
+                    case 3:
+                        {
+                            calculate.A = int.Parse(Console.ReadLine());
+                            calculate.B = int.Parse(Console.ReadLine());
+                            Console.WriteLine(calculate.A * calculate.B);
+                            break;
+                        }
+                    case 4:
+                        {
+                            calculate.A = int.Parse(Console.ReadLine());
+                            calculate.B = int.Parse(Console.ReadLine());
+                            Console.WriteLine(calculate.A / calculate.B);
+                            break;
+                        }
+                }
+            }
+            while (d <= 4);
+        
+            
+        }
+    }
+}
