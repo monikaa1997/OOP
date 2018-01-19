@@ -1,0 +1,7 @@
+d:\Documents\Visual Studio 2017\Projects\menuto\menuto\bin\Debug\menuto.exe.config
+d:\Documents\Visual Studio 2017\Projects\menuto\menuto\bin\Debug\menuto.exe
+d:\Documents\Visual Studio 2017\Projects\menuto\menuto\bin\Debug\menuto.pdb
+d:\Documents\Visual Studio 2017\Projects\menuto\menuto\obj\Debug\menuto.csprojResolveAssemblyReference.cache
+d:\Documents\Visual Studio 2017\Projects\menuto\menuto\obj\Debug\menuto.csproj.CoreCompileInputs.cache
+d:\Documents\Visual Studio 2017\Projects\menuto\menuto\obj\Debug\menuto.exe
+d:\Documents\Visual Studio 2017\Projects\menuto\menuto\obj\Debug\menuto.pdb
